@@ -5,7 +5,7 @@ from langchain_community.tools.ddg_search import DuckDuckGoSearchRun
 from langchain_core.prompts import PromptTemplate
 from langchainhub import Client
 
-API_KEY = "ed30b467ed824d0dbcf9fedd0b9d707c.8HPKYYrygP1G6B2Id_0J4Hes"
+API_KEY = "apikey"
 
 llm = ChatOllama(
     model="nemotron-3-nano:30b-cloud",
